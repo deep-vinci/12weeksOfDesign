@@ -1,8 +1,10 @@
 import Image from "next/image";
+import Rating from "./Rating";
 
 export default function ImageGallery() {
     return (
         <div className="h-100 w-full">
+            <Rating />
             <div className="grid h-100 grid-cols-5 gap-10">
                 <div className="relative h-full w-full rounded-3xl">
                     <div
