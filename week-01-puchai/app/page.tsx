@@ -6,7 +6,7 @@ import ImageGallery from "./components/ImageGallery";
 export default function Home() {
     return (
         <div className="box-content h-[100vh] w-full bg-[#f0fffb]">
-            <div className="mx-auto w-screen max-w-[1300px]">
+            <div className="mx-auto w-screen max-w-[1300px] pt-5">
                 <Nav />
                 <Hero />
                 <ImageGallery />
