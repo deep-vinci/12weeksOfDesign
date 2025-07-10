@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Nav() {
     return (
-        <div className="sticky top-0 flex h-15 w-full items-center justify-between gap-5 bg-[#f0fffb] px-5">
+        <div className="sticky top-0 flex h-15 w-full items-center justify-between gap-5 bg-white px-5">
             <div className="flex items-center justify-center">
                 <Image src={"/logo.png"} width={40} height={40} alt="Logo" />
                 <h1 className="text-2xl font-bold">Puch AI</h1>
